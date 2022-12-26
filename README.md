@@ -13,7 +13,7 @@ pip install -r requirements.txt
 You will also need to obtain an API key for the OpenAI GPT-3 library.
 
 ## Usage
-To use ai-cover-letters, import the letters module and call the write function:
+To use ai-cover-letters, import the `letters` module and call the `write` function:
 
 ```python
 import letters
