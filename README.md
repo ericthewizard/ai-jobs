@@ -1,12 +1,12 @@
 # ai-cover-letters
-ai-cover-letters is a tool that uses GPT-3 to write cover letters for jobs.
+ai-cover-letters is a tool that uses GPT-3 to write resumes and cover letters for jobs.
 
 ## Installation
 To install ai-cover-letters, clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/supervised/ai-cover-letters.git
-cd ai-cover-letters
+cd ai-cover-jobs
 pip install -r requirements.txt
 ```
 
@@ -16,9 +16,9 @@ You will also need to obtain an API key for the OpenAI GPT-3 library.
 To use ai-cover-letters, import the `letters` module and call the `write` function:
 
 ```python
-import letters
+import jobs
 
-letters.write(
+jobs.write(
     background="background.yaml",
     job="job_posting.txt",
     save="cover_letter.txt",
